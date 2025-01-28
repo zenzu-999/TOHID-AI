@@ -25,17 +25,17 @@
     "SESSION_ID": {
       "description": "your session id",
       "required": true,
-      "value": ""
+      "value": "GVBwSLAb#VzRdQ8UjOHfUrZ-5McQGVrtWY8K4AnZRP_P2Dj26W9M"
     },
     "MODE": {
       "description": "mode public or private",
       "required": true,
-      "value": ""
+      "value": "public"
     },
     "PREFIX": {
       "description": "put any one symbol here except @ and + , leave it Blank if you want to use multiple prefix",
       "required": false,
-      "value": ""
+      "value": "."
     },
      "HKEY": {
       "description": "Put your Heroku api key Here , Get one from here https://dashboard.heroku.com/account",
@@ -59,8 +59,8 @@
     },
     "antidelete": {
       "description": "bot will forward deleted messages if you make it true",
-      "required": false,
-      "value": "false"
+      "required": true,
+      "value": "true"
     },
     "HOBBIES": {
       "description": "owners hobby for intro card",
@@ -69,7 +69,7 @@
     },
     "LANGUAGE": {
       "description": "owners native language for intro",
-      "required": false,
+      "required": true,
       "value": "ENGLISH"
     },
     "OWNER_SKILLS": {
