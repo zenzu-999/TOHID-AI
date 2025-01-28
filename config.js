@@ -10,7 +10,7 @@ const defaultOwner = '917849917350';
 
 
 // Check for the OWNERS environment variable; if not found, use the default
-const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || '917849917350' ; // put your number here
+const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || '94741281478' ; // put your number here
 
 const ownerlist = ownervb.split(';');
 
@@ -20,8 +20,8 @@ for (let i = 0; i < ownerlist.length; i++) {
 }
 //
 global.botname = process.env.BOTNAME || 'TOHID-AI';
-global.pairingNumber = process.env.BOT_NUMBER || '918930358452' ;  // put your number here
-global.SESSION_ID = process.env.SESSION_ID || '' ;  // put your session id here
+global.pairingNumber = process.env.BOT_NUMBER || '94741281478' ;  // put your number here
+global.SESSION_ID = process.env.SESSION_ID || 'GVBwSLAb#VzRdQ8UjOHfUrZ-5McQGVrtWY8K4AnZRP_P2Dj26W9M' ;  // put your session id here
 
 global.mods = []
 global.prems = []
@@ -85,11 +85,11 @@ global.fglog = 'https://i.imgur.com/WnKjrJt.jpeg'
 global.thumb = fs.readFileSync('./assets/tohid.jpg')
 
 global.wait = '⏳'
-global.rwait = '⏳'
-global.dmoji = '🤭'
-global.done = '✅'
-global.error = '❌'
-global.xmoji = '🤩'
+global.rwait = '👘'
+global.dmoji = '😼'
+global.done = '🏴'
+global.error = '⚠️'
+global.xmoji = '👽'
 
 global.multiplier = 69
 global.maxwarn = '3'
